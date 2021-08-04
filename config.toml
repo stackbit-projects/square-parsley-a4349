@@ -1,0 +1,119 @@
+baseURL = ""
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "KeepIt"
+theme = "keepit"
+paginate = 12
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+disqusShortname = "yourdiscussshortname"
+themesDir = "themes"
+publishDir = "public"
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[blackfriday]
+hrefTargetBlank = true
+nofollowLinks = true
+noreferrerLinks = true
+
+[Permalinks]
+posts = "/:year/:filename/"
+
+[[menu.main]]
+name = "Blog"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+name = "Categories"
+url = "/categories/"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+[params]
+since = 2_012
+author = "Fastbyte01"
+subtitle = "A Hugo theme"
+cdn_url = ""
+home_mode = ""
+dateFormatToUse = ""
+google_verification = ""
+bing_verification = ""
+yandex_verification = ""
+pinterest_verification = ""
+baidu_verification = ""
+avatar = "/images/me/avatar.jpeg"
+socialShare = true
+description = ""
+keywords = ""
+license = 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+gravatar = { }
+
+  [params.social]
+  GitHub = "xxxx"
+  Linkedin = "xxxx"
+  Twitter = "xxxx"
+  Facebook = "xxxx"
+
+  [params.share]
+  Twitter = true
+  Facebook = true
+  Linkedin = true
+  copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+  [params.publisher]
+  name = "Fastbyte01"
+
+    [params.publisher.logo]
+    url = "logo.png"
+    width = 127
+    height = 40
+
+  [params.logo]
+  url = "logo.png"
+  width = 127
+  height = 40
+
+  [params.image]
+  url = "cover.png"
+  width = 800
+  height = 600
+
+  [params.gitalk]
+  owner = ""
+  repo = ""
+  clientId = ""
+  clientSecret = ""
+
+  [params.valine]
+  enable = false
+  language = "en"
+  appId = "your appId"
+  appKey = "your appKey"
+  notify = false
+  verify = false
+  avatar = "mm"
+  placeholder = "your comments ..."
+  visitor = true
+
+  [params.utterances]
+  owner = ""
+  repo = ""
+
+  [params.gitment]
+  owner = ""
+  repo = ""
+  clientId = ""
+  clientSecret = ""
+
+[author]
+name = "Fastbyte01"
